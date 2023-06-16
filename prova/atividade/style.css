@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins';
+    overflow-x: hidden;
+}
+
+h1{
+    display: flex;
+    justify-content: start;
+    padding-left: 12rem;
+    padding-top: 4rem;
+}
+
+.navegar{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    padding-right: 12rem;
+    position: relative;
+    bottom: 2rem;
+}
+
+button{
+    font-size: 28px;
+    background: none;
+    border: none;
+}
+
+.foto{
+    position: relative;
+    left: 8rem;
+    margin: 4rem;
+    border-radius: 20rem;
+}
+
+.nome{
+    position: relative;
+    left: 34rem;
+    bottom: 30rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.bio{
+    position: relative;
+    left: 46rem;
+    bottom: 30rem;
+    color: #94A3B8;
+}
+
+.titulo{
+    position: relative;
+    left: 46rem;
+    bottom: 39rem;
+    color: #94A3B8;
+    font-size: 30px;
+}
+
+.curriculo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 347px;
+    height: 77px;
+    left: 733px;
+    top: 473px;
+    border: 3px solid #A5B4FC;
+    border-radius: 50px;
+    background: none;
+    font-size: 26px;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.contato{
+    box-sizing: border-box;
+    position: absolute;
+    width: 347px;
+    height: 77px;
+    left: 1103px;
+    top: 473px;
+    border: 3px solid #A5B4FC;
+    border-radius: 50px;
+    background: none;
+    font-size: 26px;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.footer{
+    position: absolute;
+    font-size: 26px;
+    padding: 4rem;
+    left: 8rem;
+    font-weight: bold;
+}
+
+.redes{
+    display: flex;
+    justify-content: end;
+    gap: 3rem;
+    position: relative;
+    top: 4rem;
+    right: 12rem;
+}
+
+.barrinha{
+    width: 86px;
+    height: 0px;
+    border: 6px solid #A5B4FC;
+    position: absolute;
+    left: 200px;
+    bottom: 84px;
+    border-radius: 20px;
+}
+
+.texto{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    left: 310px;
+    bottom: 46px;
+}
+
+.seguidor1{
+    position: relative;
+    left: 200px;
+    top: 0px;
+}
+
+.seguidor2{
+    position: absolute;
+    left: 600px;
+    top: 946px;
+}
+
+.fotoseguidor1{
+    width: 300px;
+    border-radius: 6px;
+}
+
+.nomeseguidor1{
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+}
+
+.fotoseguidor2{
+    width: 300px;
+    position: relative;
+    left: 80px;
+    border-radius: 6px;
+}
+
+.nomeseguidor2{
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    left: 180px;
+}
+
+.seguidores{
+    box-sizing: border-box;
+    position: relative;
+    width: 347px;
+    height: 77px;
+    border: 3px solid #A5B4FC;
+    border-radius: 50px;
+    background: none;
+    font-size: 26px;
+    padding: 1rem;
+    font-weight: bold;
+    margin: 4rem;
+    left: 711px;
+    top: 2rem;
+}
